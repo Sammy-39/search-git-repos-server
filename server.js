@@ -9,7 +9,7 @@ ConnectDb()
 
 const app = express()
 
-app.use(cors({ origin: 'https://search-git-repos.netlify.app/'}))
+app.use(cors({ origin: 'https://search-git-repos.netlify.app'}))
 app.use(express.static('public'))
 
 // routes
